@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    min-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-right: 235px;
+    width: 100%;
+}
+
+.logo__img {}
+
+.navigation {
+    display: flex;
+}
+
+.nav__list {}
+
+.nav__item {
+    font-family: 'Futura New';
+    /*Шрифт*/
+    font-weight: 700;
+    /*Насыщенность шрифта*/
+    font-size: 20px;
+    color: #C3B9B5;
+    /*Цвет текста*/
+    text-transform: uppercase;
+    /*Верхний регистр*/
+}
+
+.nav__link {}
+
+.content {}
+
+.title__block {}
+
+.title__text {}
+
+.title__buttom {}
+
+.title-btn {}
+
+.content__images {}
+
+.content__images-img {}
